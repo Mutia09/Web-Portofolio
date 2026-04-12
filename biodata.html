@@ -2,97 +2,93 @@
 <html>
 <head>
     <title>Tentang Saya</title>
-    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="bg-light">
 
-<!-- NAVBAR -->
-<div class="navbar">
-    <h2>Portofolio</h2>
-    <div>
-        <a href="index.html">Beranda</a>
-        <a href="biodata.html">Tentang</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold">Portofolio</a>
+
+    <div class="ms-auto">
+      <a href="index.html" class="me-3 text-decoration-none">Beranda</a>
+      <a href="#" class="text-decoration-none">Tentang</a>
     </div>
-</div>
+  </div>
+</nav>
 
-<div class="about">
+<div class="container my-5">
 
-<h1>Tentang Saya</h1>
+<h1 class="mb-3">Tentang Saya</h1>
 
-<p>
+<p class="text-muted">
 Saya adalah mahasiswa Program Studi Informatika yang sedang
 mempelajari pengembangan website.
-Halaman ini berisi informasi biodata lengkap saya.
 </p>
 
-<!-- TABEL DATA -->
-<h2>Biodata Mahasiswa</h2>
+<h2 class="mt-4">Biodata Mahasiswa</h2>
 
-<table>
+<table class="table table-bordered table-striped mt-3">
 <tr>
     <th>Informasi</th>
     <th>Detail</th>
 </tr>
 
-<tr>
-    <td>Nama</td>
-    <td>Cut Mutia Rahmah</td>
-</tr>
-
-<tr>
-    <td>NPM</td>
-    <td>2408107010062</td>
-</tr>
-
-<tr>
-    <td>Program Studi</td>
-    <td>Informatika</td>
-</tr>
-
-<tr>
-    <td>Semester</td>
-    <td>4</td>
-</tr>
-
-<tr>
-    <td>Universitas</td>
-    <td>Universitas Syiah Kuala</td>
-</tr>
+<tr><td>Nama</td><td>Cut Mutia Rahmah</td></tr>
+<tr><td>NPM</td><td>2408107010062</td></tr>
+<tr><td>Program Studi</td><td>Informatika</td></tr>
+<tr><td>Semester</td><td>4</td></tr>
+<tr><td>Universitas</td><td>Universitas Syiah Kuala</td></tr>
 
 </table>
 
-<h2>Software yang Digunakan</h2>
-
-<ol>
-    <li>Visual Studio Code</li>
-    <li>XAMPP</li>
-    <li>QGIS</li>
-    <li>GitHub</li>
+<h2 class="mt-4">Software yang Digunakan</h2>
+<ol class="list-group list-group-numbered">
+    <li class="list-group-item">Visual Studio Code</li>
+    <li class="list-group-item">XAMPP</li>
+    <li class="list-group-item">QGIS</li>
+    <li class="list-group-item">GitHub</li>
 </ol>
 
-<h2>Daftar Mata Kuliah Saat Ini</h2>
+<h2 class="mt-5">Daftar Mata Kuliah</h2>
 
-<div class="mk-container">
+<div class="row g-3">
 
-    <div class="mk-card">
-        <h3>Sistem Informasi Geografis</h3>
-        <p>Mempelajari konsep dasar GIS dan pengolahan data spasial.</p>
-    </div>
+<div class="col-md-6">
+  <div class="card shadow-sm p-3">
+    <h5>Sistem Informasi Geografis</h5>
+    <p>Mempelajari konsep GIS dan data spasial.</p>
+  </div>
+</div>
 
-    <div class="mk-card">
-        <h3>Pemrograman Berbasis Web</h3>
-        <p>Belajar membuat website menggunakan HTML, CSS, dan dasar JavaScript.</p>
-    </div>
+<div class="col-md-6">
+  <div class="card shadow-sm p-3">
+    <h5>Pemrograman Web</h5>
+    <p>Belajar HTML, CSS, dan JavaScript.</p>
+  </div>
+</div>
 
-    <div class="mk-card">
-        <h3>Visualisasi Data</h3>
-        <p>Mempelajari cara menyajikan data dalam bentuk grafik dan visual yang informatif.</p>
-    </div>
+<div class="col-md-6">
+  <div class="card shadow-sm p-3">
+    <h5>Visualisasi Data</h5>
+    <p>Menyajikan data dalam bentuk visual.</p>
+  </div>
+</div>
 
-    <div class="mk-card">
-        <h3>Rekayasa Perangkat Lunak</h3>
-        <p>Mempelajari proses perancangan dan pengembangan perangkat lunak.</p>
-    </div>
+<div class="col-md-6">
+  <div class="card shadow-sm p-3">
+    <h5>Rekayasa Perangkat Lunak</h5>
+    <p>Proses pengembangan software.</p>
+  </div>
+</div>
 
 </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
