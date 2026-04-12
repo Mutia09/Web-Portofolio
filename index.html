@@ -2,58 +2,66 @@
 <html>
 <head>
     <title>Portofolio Cut Mutia Rahmah</title>
-    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="bg-light">
 
-<div class="navbar">
-    <h2>Portofolio</h2>
-    <div>
-        <a href="#">Beranda</a>
-        <a href="biodata.html">Tentang</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold">Portofolio</a>
+
+    <div class="ms-auto">
+      <a href="#" class="me-3 text-decoration-none">Beranda</a>
+      <a href="biodata.html" class="text-decoration-none">Tentang</a>
     </div>
-</div>
+  </div>
+</nav>
 
-<div class="hero">
+<div class="container my-5">
+  <div class="row align-items-center">
 
-    <img src="foto.jpeg" class="foto">
-
-    <div class="hero-text">
-        <p class="subtitle">MAHASISWA INFORMATIKA</p>
-
-        <h1>Cut Mutia Rahmah</h1>
-
-        <p class="npm">NPM: 2408107010062</p>
-
-        <p>
-        Mahasiswa semester 4 program studi Informatika yang memiliki 
-        passion di bidang pengembangan web.
-        </p>
-
-        <a href="biodata.html" class="btn">
-            Lihat Selengkapnya →
-        </a>
+    <div class="col-md-4 text-center">
+      <img src="foto.jpeg" class="img-fluid rounded-circle border border-warning p-2">
     </div>
 
+    <div class="col-md-8">
+      <p class="text-warning text-uppercase">Mahasiswa Informatika</p>
+
+      <h1 class="fw-bold">Cut Mutia Rahmah</h1>
+
+      <p class="fw-bold">NPM: 2408107010062</p>
+
+      <p>
+      Mahasiswa semester 4 program studi Informatika yang memiliki 
+      passion di bidang pengembangan web.
+      </p>
+
+      <a href="biodata.html" class="btn btn-dark mt-3">
+        Lihat Selengkapnya →
+      </a>
+    </div>
+
+  </div>
 </div>
 
-<div class="skill-section">
+<div class="container my-5">
+  <h2 class="text-center mb-4">Keahlian</h2>
 
-<h2>Keahlian</h2>
+  <div class="row g-3">
 
-<div class="skills">
+    <div class="col-md-4"><div class="card p-3 text-center shadow-sm">HTML & CSS</div></div>
+    <div class="col-md-4"><div class="card p-3 text-center shadow-sm">C</div></div>
+    <div class="col-md-4"><div class="card p-3 text-center shadow-sm">Python</div></div>
+    <div class="col-md-4"><div class="card p-3 text-center shadow-sm">Microsoft Office</div></div>
+    <div class="col-md-4"><div class="card p-3 text-center shadow-sm">Database Dasar</div></div>
+    <div class="col-md-4"><div class="card p-3 text-center shadow-sm">GitHub</div></div>
 
-<div class="skill">HTML & CSS</div>
-<div class="skill">C</div>
-<div class="skill">Python</div>
-<div class="skill">Microsoft Office</div>
-<div class="skill">Database Dasar</div>
-<div class="skill">GitHub</div>
-
+  </div>
 </div>
 
-</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
